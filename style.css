@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    
+}
+.navber{
+    background-color: rgb(243, 196, 157);
+    border-radius: 20px;
+}
+
+#about .left h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+
+}
+#about .left p{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.about .right img{
+    width: 400px;
+    margin-left: 20%;
+    height: 400px;
+    border: 1px solid rgb(143, 142, 142);
+    border-radius: 50%;
+    box-shadow: 10px 20px 20px rgba(0,0,0, 0.3);
+
+}
+#vk{
+    color: rgb(183, 0, 255);
+}
+#element{
+    color: rgb(183, 0, 255);
+}
+ hr{
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    height: 3px;
+ }
+ .Experience h1{
+    font-size: 40px;
+
+ }
+ .hr-line{
+  
+    height: 3px;
+    margin: auto;
+    background: #000;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .vr-hr-line hr{
+    width: 3px;
+    height: 50px;
+    background: #000000;
+   
+  
+ }
+ .icons{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -110px;
+    left: 87px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 10px 20px 20px rgba(0,0,0, 0.3);
+
+ }
+ /* .MySQL{
+   width: 100px !important;
+   position: relative;
+    top: -150px;
+    left: 87px;
+ } */
+ .role{
+    color: rgb(183, 0, 255);
+ }
+ .vr-role{
+   text-align: center;
+   margin-top: -20%;
+    font-size: 20px;
+    font-weight: 1000;
+    /* width: 200px; */
+   
+   
+ }
+ .vr-desc{
+    font-size: 15px;
+    /* width: 200px; */
+    margin-top: 20px;
+ }
+ .img-container{
+   overflow: hidden;
+   position: relative;
+   border-radius: 20px;
+   box-shadow: 10px 20px 15px rgba(0,0,0, 0.5);
+   border: 1px solid black;
+ }
+ .slider .pr-img{
+   width: 100% ;
+   object-fit: cover;
+  
+ 
+ }
+ .img-container{
+
+   display: flex;
+   /* transform: translateX(-100%); */
+ transition: transform 0.7s ease-in-out;
+ }
+
+ footer{
+   background-color: rgb(243, 196, 157);
+ }
+
+ .Experience{
+   background-image: url(https://media.istockphoto.com/id/1294097853/vector/indian-flag-colours-tricolor-horizontal-vector-backgrounds-of-three-very-light-pastel-shades.jpg?s=612x612&w=0&k=20&c=x3lH8fuEKqR8XokO1PEk6OoWNJKH52UonPfAzUC13rA=);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+ .header{
+   background-image: url(https://media.istockphoto.com/id/1264736753/vector/grunge-vector-tricolour-background-with-an-off-white-centre-and-orange-or-saffron-and-green.jpg?s=612x612&w=0&k=20&c=R_fVpjTLC1btroBZQrlucIgmIMwjY524-s0T4oBjUxU=);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+ .footer-mob {
+   display: none;
+ }
+ @media only screen and (max-width: 768px){
+   body{
+       padding-bottom: 5rem;
+     }
+   .header{
+       height: unset !important;
+       
+     
+       
+     }
+
+     .about .right img{
+      width: 200px;
+      margin-left: 15%;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 1px solid rgb(143, 142, 142);
+      border-radius: 50%;
+      box-shadow: 10px 20px 20px rgba(0,0,0, 0.3);
+  
+  }
+  #about .left h2{
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+
+}
+
+
+.vr-hr-line hr{
+display: none !important;
+  
+ 
+}
+
+.vr-desc{
+   font-size: 15px;
+
+   margin-top: 20px;
+}
+
+.vr-role{
+   text-align: center !important;
+   margin-top: 10%;
+    font-size: 20px;
+    font-weight: 1000;
+    /* width: 200px; */
+   
+   
+ }
+ 
+   
+   .footer-mob {
+     display: block;
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     color: #fff;
+     background: linear-gradient(30deg,rgb(83 91 108),rgb(15, 15, 15),rgb(19, 19, 19));  
+     text-align: center;
+     border-radius: 1rem;
+     z-index: 1;
+   }
+ 
+ 
+ 
+ 
+ 
+   
+ 
+     
+ }
+ 
